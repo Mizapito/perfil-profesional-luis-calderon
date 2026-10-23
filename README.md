@@ -14,12 +14,13 @@ Desarrollar y desplegar un sitio web de presentación profesional interactivo y 
 ##  Estructura del Proyecto
 ```text
 .
-├── index.html          # Página principal del sitio web
+├── index.html                            # Página principal del sitio web
 ├── css/
-│   └── styles.css      # Hoja de estilos externa
-├── assets/             # Recursos gráficos, iconos e imágenes
-├── Dockerfile          # Configuración para la creación de la imagen Docker
-└── README.md           # Documentación del proyecto
+│   └── styles.css                        # Hoja de estilos externa
+├── Cert. Aprob (31)-signed-signed.pdf    # Certificado de uso de IA para podcast
+├── Dockerfile                            # Configuración para la creación de la imagen Docker
+├── foto-traje.jpeg                       # foto de Luis Calderón en traje
+└── README.md                             # Documentación del proyecto
 ```
 ## Instrucciones para Construir y Subir a Docker Hub
 Sigue los siguientes pasos para compilar la imagen localmente y publicarla en tu cuenta de Docker Hub:
