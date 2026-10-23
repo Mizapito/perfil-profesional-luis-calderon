@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(230, 225, 225);
+}
+
+.inicio {
+    display: flex;/* permite colocar colocar elementos uno a lado del otro */
+    gap: 50px; /* da separacion entre elementos*/
+    background-color: rgb(187, 230, 248);
+    padding: 20px;
+    margin-bottom: 10px; /* da separacion entre la seccion que sigue*/
+}
+
+.bloque {
+    background-color: rgb(187, 230, 248);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.fila {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.tarjeta {
+    flex: 1; /* Hace que todas las tarjetas midan el mismo ancho */
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+h4 {
+    color: blueviolet;
+}
+
+.enlace  {
+    flex: 1;
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.enlace:hover {
+    background-color: silver;
+}
