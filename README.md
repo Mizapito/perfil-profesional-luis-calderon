@@ -16,7 +16,7 @@ Desarrollar y desplegar un sitio web de presentación profesional interactivo y 
 .
 ├── index.html                            # Página principal del sitio web
 ├── css/
-│   └── styles.css                        # Hoja de estilos externa
+│   └── estilos.css                        # Hoja de estilos externa
 ├── Cert. Aprob (31)-signed-signed.pdf    # Certificado de uso de IA para podcast
 ├── Dockerfile                            # Configuración para la creación de la imagen Docker
 ├── foto-traje.jpeg                       # foto de Luis Calderón en traje
